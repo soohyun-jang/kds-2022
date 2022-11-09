@@ -28,7 +28,7 @@ public class OrderController {
      */
     @SneakyThrows
     @GetMapping("/orders")
-    public ResponseEntity getTest() {
+    public ResponseEntity getOrders() {
 
         // db 조회
         Firestore db = FirestoreClient.getFirestore();

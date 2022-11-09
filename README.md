@@ -11,3 +11,8 @@ KDS(Kitchen Display Systems) Spring Backend 입니다.
 - [화면 설계 (Figma)](https://www.figma.com/file/jusYaheQOrpoxGM4sKSl6p/KDS?node-id=3%3A24)
 
 - [DB 설계 (dbdiagram)](https://dbdiagram.io/d/625e196b2514c97903507a74)
+
+### 개발 API
+| Description | REST API | HTTP Method | API Sample |
+|---|---|---|---|
+| 주문 내역 조회 | /orders | GET | [getOrders](./api/orders.md)
